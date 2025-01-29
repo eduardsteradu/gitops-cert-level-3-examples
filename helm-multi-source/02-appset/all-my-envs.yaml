@@ -49,7 +49,7 @@ spec:
       project: default
 
       sources:
-      - repoURL: "https://github.com/eduardsteradu/gitops-cert-level-3-examples.git"
+        - repoURL: "https://github.com/eduardsteradu/gitops-cert-level-3-examples.git"
           path: helm-multi-source/my-chart
           helm:
             valueFiles:
